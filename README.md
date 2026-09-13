@@ -49,4 +49,4 @@ Before it classifies anything, the workflow checks whether the message already c
 
 ## Coming later
 
-A fuller version is in the works, adding draft replies, urgent alerts and a log of everything it files. If you would like to know when it lands, see baynhams.com.au.
+A fuller version is in the works, adding draft replies, urgent alerts and a log of everything it files. If you would like to know when it lands, see [baynhams.com.au](https://baynhams.com.au).
