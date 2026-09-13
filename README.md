@@ -47,6 +47,6 @@ The model also writes a one-line summary, capped at 20 words, describing what th
 
 Before it classifies anything, the workflow checks whether the message already carries one of your eight labels and skips it if so, so nothing gets labelled twice.
 
-## Paid version
+## Coming later
 
-The paid version adds draft replies, urgent alerts and a Google Sheet log of everything it files: LINK_TO_GUMROAD
+A fuller version is in the works, adding draft replies, urgent alerts and a log of everything it files. If you would like to know when it lands, see baynhams.com.au.
