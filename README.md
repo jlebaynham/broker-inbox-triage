@@ -47,6 +47,6 @@ The model also writes a one-line summary, capped at 20 words, describing what th
 
 Before it classifies anything, the workflow checks whether the message already carries one of your eight labels and skips it if so, so nothing gets labelled twice.
 
-## Coming later
+## Paid version
 
-A fuller version is in the works, adding draft replies, urgent alerts and a log of everything it files. If you would like to know when it lands, see [baynhams.com.au](https://baynhams.com.au).
+The paid version adds draft replies for new enquiries and certificate requests, urgent alerts, and a Google Sheet log of every email it files. Drafts are saved in Gmail for a person to check and send, and are never sent automatically. It comes with a 12 page setup guide and costs A$79 from [Broker Inbox Triage on Gumroad](https://baynhams.gumroad.com/l/broker-inbox-triage).
