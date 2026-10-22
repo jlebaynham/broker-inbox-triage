@@ -6,8 +6,6 @@ It watches a Gmail inbox and reads each new email as it arrives. It sorts every 
 category, files it under a Gmail label, drafts a reply where one is safe to draft, tells you when
 something is urgent, and keeps a record of every email in a Google Sheet.
 
-Setup guide | free on Gumroad: https://baynhams.gumroad.com/l/broker-inbox-triage
-
 ## What it does
 
 For every new email:
@@ -73,14 +71,12 @@ Check OpenAI's pricing page for current rates before relying on any figure.
 
 ## Setup in brief
 
-The setup guide linked above walks through every step. In short:
-
 1. Import `Broker_Inbox_Triage_TEMPLATE.json` into n8n, under Workflows then Import from File.
 2. In Gmail, create eight labels under `Broker/`, one for each category, for example
    `Broker/renewal`.
 3. Find the ID of each label and paste it into the **Settings** node in place of the eight
    `PASTE_..._LABEL_ID` placeholders. A label ID is not the label name; it looks like
-   `Label_1234567890`. The setup guide shows the quickest way to find them.
+   `Label_1234567890`.
 4. Create a Google Sheet with a tab named `Log` and these column headings in the first row: Date,
    From, Subject, Category, Urgent, Summary. Paste the sheet's ID into **Settings** in place of
    `PASTE_YOUR_GOOGLE_SHEET_ID_HERE`. The ID is the long string in the sheet's web address.
